@@ -1,0 +1,49 @@
+:root {
+  --tmdbDarkBlue: 248, 248, 255; 
+  --main-font: 'Cursive', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --highlightColor: #ff69b4;
+  --secondaryColor: #ffc0cb; 
+
+  font-family: var(--main-font);
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(var(--tmdbDarkBlue));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, var(--secondaryColor), white);
+  font-family: var(--main-font);
+  color: rgba(50, 50, 50, 0.9);
+}
+
+a {
+  font-family: var(--main-font);
+  color: var(--highlightColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff1493; 
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 182, 193, 0.2); 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--highlightColor); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff1493; 
+}
