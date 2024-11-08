@@ -45,7 +45,7 @@ const Logo = () => {
   return (
     <StyledLogo>
       <CameraIcon icon={faVideo} />
-      <StyledH1>DevCine</StyledH1>
+      <StyledH1>Portal de filmes</StyledH1>
     </StyledLogo>
   );
 };
